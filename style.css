@@ -1,0 +1,63 @@
+body{
+    background-image: url(img/marijuana_cannabis_leaf_background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.511);
+    box-shadow: 5px 5px 10px black;
+}
+.txt-shw{
+    color: rgb(17, 75, 17);text-shadow: 1px 1px 1px white;
+}
+.nav-logo{
+    font-weight: 900;
+}
+.top-btn{
+    color: white;
+    font-weight: 700;
+}
+.top-btn ul{
+    list-style-type: none;
+    display: flex;
+}
+.top-btn ul li{
+    margin: 0 30px;
+}
+/* Sec */
+.sec-1-txt h1, .sec-1-txt p{
+    color: white;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(17, 75, 17);
+    border: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+button{
+   background: none;
+   border: none;
+}
+.sec-1-txt{
+    margin-top: 5%;
+}
+footer{
+    display: none;
+} 
+@media screen and (max-width:500px) {
+    footer{
+        display: block;
+    } 
+    section{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .top-btn ul{
+        display: block;
+    }
+
+}
